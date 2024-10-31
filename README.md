@@ -27,6 +27,7 @@ Each day, I will:
 The repository is structured as follows:
 
 /November-Daily-Coding-Challenges 
+
 ├── Day One 01-11-24
 │   ├── problem-1.md       # Description of the first problem
 │   ├── solution-1.js      # Solution to the first problem (in JavaScript) 
