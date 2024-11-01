@@ -40,6 +40,8 @@ The repository is structured as follows:
 ```
 
 ## Progress
+- **Day 13 01-11-24** Solved 1 problem on Longest Increasing Subsequence. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2013%2001-11-24)
+
 
 ## Goals
 
