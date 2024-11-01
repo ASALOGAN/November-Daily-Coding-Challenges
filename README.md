@@ -31,7 +31,12 @@ The repository is structured as follows:
 │   ├── problem-1.md       # Description of the first problem
 │   ├── solution-1.js      # Solution to the first problem (in JavaScript) 
 │   ├── solution-1.py      # Solution to the first problem (in Python) 
-│   ├── notes.md           # Notes and explanation of the day's approach and learnings 
+│   ├── notes.md           # Notes and explanation of the day's approach and learnings
+├── Day 13 01-11-24
+│   ├── problem-1.md         # Description of the problem
+│   ├── solution-1.js        # Solution to the problem (in JavaScript)
+│   ├── solution-1.py        # Solution to the problem (in Python)
+│   ├── notes.md           # Notes and explanation of the day's approach and learnings
 ```
 
 ## Progress
