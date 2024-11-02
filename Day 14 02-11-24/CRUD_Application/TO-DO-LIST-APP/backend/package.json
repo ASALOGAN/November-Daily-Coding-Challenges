@@ -4,7 +4,8 @@
   "description": "CRUD TO-DO List app built using MERN Stack",
   "main": "server.js",
   "scripts": {
-    "start": "nodemon server.js"
+    "start": "node server.js",
+    "dev": "nodemon server.js"
   },
   "author": "Ahmedshoiebaqhtar+github@gmail.com",
   "license": "ISC",

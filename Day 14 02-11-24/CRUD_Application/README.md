@@ -9,10 +9,14 @@ CRUD_Application/
 ├── TO-DO-LIST-APP/                   # Main project directory
 │   │
 │   ├── backend/                      # Backend code
-│   │   ├── models/                   # Mongoose models
-│   │   │   └── Todo.js
-│   │   ├── routes/                   # Express routes
-│   │   │   └── todos.js
+│   │   ├── config/                   # Database configuration
+│   │   │   └── db.js                 # Manage the MongoDB connection
+│   │   ├── controllers/              # Logic for each route
+│   │   │   └── taskController.js     # Handle Logic for API route
+│   │   ├── models/                   # MongoDB schemas
+│   │   │   └── Task.js               # Mongoose schema for a Task
+│   │   ├── routes/                   # API routes
+│   │   │   └── taskRoutes.js         # API Routes Endpoints for CRUD Operations.
 │   │   ├── .env                      # Environment variables
 │   │   ├── .gitignore                # Git ignore file
 │   │   ├── package.json              # Node.js dependencies and scripts
