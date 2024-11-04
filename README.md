@@ -37,10 +37,45 @@ The repository is structured as follows:
 │   ├── solution-1.js        # Solution to the problem (in JavaScript)
 │   ├── solution-1.py        # Solution to the problem (in Python)
 │   ├── notes.md           # Notes and explanation of the day's approach and learnings
+├── Day 14 02-11-24
+│   ├── CRUD_Application
+│   │   ├── TO-DO-LIST-APP   # Main application file for the CRUD application
+│   │   │   ├── backend         # Backend directory for the TO-DO-LIST-APP
+│   │   │   ├── backend
+│   │   │   │   ├── config
+│   │   │   │   │   ├── db.js          # Database configuration file
+│   │   │   │   ├── controllers
+│   │   │   │   │   ├── taskController.js  # Controller for handling task operations
+│   │   │   │   ├── model
+│   │   │   │   │   ├── Task.js        # Task model definition
+│   │   │   │   ├── routes
+│   │   │   │   │   ├── taskRoutes.js  # Routes for task-related endpoints
+│   │   │   │   ├── server.js          # Main server file
+│   │   │   ├── frontend        # Frontend directory for the TO-DO-LIST-APP
+│   │   │   │   ├── public          # Public assets for the frontend
+│   │   │   │   ├── src             # Source files for the frontend
+│   │   │   │   │   ├── components  # Reusable components
+│   │   │   │   │   │   ├── TaskFilter.js  # Component for filtering tasks
+│   │   │   │   │   │   ├── TaskForm.js    # Component for task form
+│   │   │   │   │   │   ├── TaskList.js    # Component for displaying task list
+│   │   │   │   │   ├── pages        # Pages for the application
+│   │   │   │   │   │   ├── Home.js        # Home page component
+│   │   │   │   │   ├── service      # Service layer for API calls
+│   │   │   │   │   │   ├── task.js        # Service for task-related API calls
+│   │   │   │   │   ├── App.js       # Main application component
+│   │   │   │   ├── package.json     # Frontend package configuration
+│   │   │   ├── README.md       # Documentation for the TO-DO-LIST-APP
+│   ├── LeetCode
+│   │   ├── problem-1.md    # Description of the LeetCode problem
+│   │   ├── solution-1.js   # Solution to the LeetCode problem (in JavaScript)
+│   │   ├── solution-1.py   # Solution to the LeetCode problem (in Python)
+│   │   ├── notes.md        # Notes and explanation of the approach and learnings
 ```
 
 ## Progress
 - **Day 13 01-11-24** Solved 1 problem on Longest Increasing Subsequence. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2013%2001-11-24)
+- **Day 14 02-11-24** Created a CRUD Application using the MERN Stack for a to-do-list and solved a LeetCode problem on Palindrome Number. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2014%2002-11-24)
+
 
 
 ## Goals
