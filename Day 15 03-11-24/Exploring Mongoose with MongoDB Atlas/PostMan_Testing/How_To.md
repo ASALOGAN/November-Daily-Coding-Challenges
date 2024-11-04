@@ -68,6 +68,5 @@ To test the CRUD operations for the User model using Postman, follow these steps
 
 ### Notes
 
-- Replace `<your-server-url>` with the actual URL where your server is running.
 - Replace `<user-id>` with the actual ID of the user you want to retrieve, update, or delete.
 - Ensure your server is running and connected to the database before testing with Postman.
