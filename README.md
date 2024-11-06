@@ -110,6 +110,7 @@ The repository is structured as follows:
 - **Day 14 02-11-24** Created a CRUD Application using the MERN Stack for a to-do-list and solved a LeetCode problem on Palindrome Number. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2014%2002-11-24)
 - **Day 15 03-11-24** Explored Mongoose with MongoDB Atlas and documented the process and solved a LeetCode problem on Add Two Number. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2015%2003-11-24)
 - **Day 16 04-11-24** Solved a LeetCode problem on Plus One in both JavaScript and Python, and documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2016%2004-11-24)
+- **Day 17 05-11-24** Explored JavaScript Array Methods with practical examples and solved a LeetCode problem on Two Sum II in both JavaScript and Python. Documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2017%2005-11-24)
 
 
 ## Goals
