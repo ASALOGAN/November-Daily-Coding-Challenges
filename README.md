@@ -109,7 +109,6 @@ The repository is structured as follows:
 │   │   ├── solution-1.js          # Solution to the LeetCode problem (in JavaScript)
 │   │   ├── solution-1.py          # Solution to the LeetCode problem (in Python)
 │   │   ├── notes.md               # Notes and explanation of the approach and learnings
-
 ```
 
 ## Progress
@@ -118,6 +117,7 @@ The repository is structured as follows:
 - **Day 15 03-11-24** Explored Mongoose with MongoDB Atlas and documented the process and solved a LeetCode problem on Add Two Number. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2015%2003-11-24)
 - **Day 16 04-11-24** Solved a LeetCode problem on Plus One in both JavaScript and Python, and documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2016%2004-11-24)
 - **Day 17 05-11-24** Explored JavaScript Array Methods with practical examples and solved a LeetCode problem on Two Sum II in both JavaScript and Python. Documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2017%2005-11-24)
+- **Day 18 06-11-24** Solved a LeetCode problem on Two Sum II in both JavaScript and Python, utilizing a two-pointer technique for an efficient solution. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2018%2006-11-24)
 
 
 ## Goals
