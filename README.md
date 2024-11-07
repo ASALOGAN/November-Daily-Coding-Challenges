@@ -109,6 +109,11 @@ The repository is structured as follows:
 │   │   ├── solution-1.js          # Solution to the LeetCode problem (in JavaScript)
 │   │   ├── solution-1.py          # Solution to the LeetCode problem (in Python)
 │   │   ├── notes.md               # Notes and explanation of the approach and learnings
+├── Day 19 07-11-24
+│   │   ├── problem-1.md           # Description of the Find the Difference problem
+│   │   ├── solution-1.js          # JavaScript solution for Find the Difference
+│   │   ├── solution-1.py          # Python solution for Find the Difference
+│   │   ├── notes.md               # Notes and explanation of the Find the Difference approach and learnings
 ├── README.md
 ```
 
