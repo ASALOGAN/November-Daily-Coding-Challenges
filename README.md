@@ -128,6 +128,8 @@ The repository is structured as follows:
 - **Day 16 04-11-24** Solved a LeetCode problem on Plus One in both JavaScript and Python, and documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2016%2004-11-24)
 - **Day 17 05-11-24** Explored JavaScript Array Methods with practical examples and solved a LeetCode problem on  Contains Duplicate in both JavaScript and Python. Documented the approach and solution. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2017%2005-11-24)
 - **Day 18 06-11-24** Solved a LeetCode problem on Two Sum II in both JavaScript and Python, utilizing a two-pointer technique for an efficient solution. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2018%2006-11-24)
+- **Day 19 07-11-24** Solved two LeetCode problems: "Find the Difference" and "First Unique Character in a String" in both JavaScript and Python. Documented the approach, solution, and complexity analysis for each problem. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2019%2007-11-24)
+
 
 ## Goals
 
