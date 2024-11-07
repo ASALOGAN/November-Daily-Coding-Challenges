@@ -114,6 +114,10 @@ The repository is structured as follows:
 │   │   ├── solution-1.js          # JavaScript solution for Find the Difference
 │   │   ├── solution-1.py          # Python solution for Find the Difference
 │   │   ├── notes.md               # Notes and explanation of the Find the Difference approach and learnings
+│   ├── problem-2.md           # Description of the First Unique Character in a String problem
+│   ├── solution-2.js          # JavaScript solution for First Unique Character in a String
+│   ├── solution-2.py          # Python solution for First Unique Character in a String
+│   ├── notes.md               # Notes and explanation of the First Unique Character in a String approach and learnings
 ├── README.md
 ```
 
