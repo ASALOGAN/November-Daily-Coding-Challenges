@@ -131,6 +131,7 @@ The repository is structured as follows:
 - **Day 19 07-11-24** Solved two LeetCode problems: "Find the Difference" and "First Unique Character in a String" in both JavaScript and Python. Documented the approach, solution, and complexity analysis for each problem. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2019%2007-11-24)
 
 
+
 ## Goals
 
 - Improve problem-solving skills by practicing daily.
