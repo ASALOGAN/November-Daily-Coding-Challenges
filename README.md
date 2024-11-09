@@ -118,6 +118,11 @@ The repository is structured as follows:
 │   ├── solution-2.js          # JavaScript solution for First Unique Character in a String
 │   ├── solution-2.py          # Python solution for First Unique Character in a String
 │   ├── notes.md               # Notes and explanation of the First Unique Character in a String approach and learnings
+├── Day 20 08-11-24
+│   │   ├── problem-1.md       # Description of the Binary Tree Preorder Traversal problem
+│   │   ├── solution-1.js      # Solution to the Binary Tree Preorder Traversal problem (in JavaScript)
+│   │   ├── solution-1.py      # Solution to the Binary Tree Preorder Traversal problem (in Python)
+│   │   ├── notes.md           # Notes and explanation of the approach and learnings
 ├── README.md
 ```
 
