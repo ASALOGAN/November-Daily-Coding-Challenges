@@ -123,6 +123,12 @@ The repository is structured as follows:
 │   │   ├── solution-1.js      # Solution to the Binary Tree Preorder Traversal problem (in JavaScript)
 │   │   ├── solution-1.py      # Solution to the Binary Tree Preorder Traversal problem (in Python)
 │   │   ├── notes.md           # Notes and explanation of the approach and learnings
+├── Day 21 09-11-24
+│   ├── problem-1.md       # Description of the Remove Nth Node From End of List problem
+│   ├── solution-1.js      # Solution to the Remove Nth Node From End of List problem (in JavaScript)
+│   ├── solution-1.py      # Solution to the Remove Nth Node From End of List problem (in Python)
+│   ├── notes.md           # Notes and explanation of the approach and learnings
+
 ├── README.md
 ```
 
