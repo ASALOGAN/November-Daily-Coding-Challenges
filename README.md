@@ -128,7 +128,12 @@ The repository is structured as follows:
 │   ├── solution-1.js      # Solution to the Remove Nth Node From End of List problem (in JavaScript)
 │   ├── solution-1.py      # Solution to the Remove Nth Node From End of List problem (in Python)
 │   ├── notes.md           # Notes and explanation of the approach and learnings
-
+├── Day 22 10-11-24
+│   ├── Leet Code
+│   │   ├── problem-1.md           # Description of the Linked List Cycle problem
+│   │   ├── solution-1.js          # Solution to the Linked List Cycle problem (in JavaScript)
+│   │   ├── solution-1.py          # Solution to the Linked List Cycle problem (in Python)
+│   │   ├── notes.md               # Notes and explanation of the approach and learnings
 ├── README.md
 ```
 
