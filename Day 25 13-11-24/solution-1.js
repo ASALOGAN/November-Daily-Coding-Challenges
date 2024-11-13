@@ -1,11 +1,10 @@
-// Problem: Move Zeroes
-//
-// Description:
-// Given an integer array `nums`, move all `0`'s to the end of it while maintaining the relative order of the non-zero elements.
-// Note that you must do this in-place without making a copy of the array.
+// Problem: Valid Anagram
+// Given two strings s and t, return true if t is an 
+// anagram of s, and false otherwise.
 //
 // Constraints:
-// 1 <= nums.length <= 10^4
+// 1 <= s.length, t.length <= 5 * 10^4
+// s and t consist of lowercase English letters.
 
 // Function to determine if two strings are anagrams
 const isAnagram = (s, t) => {

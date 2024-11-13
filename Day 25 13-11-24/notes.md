@@ -1,15 +1,15 @@
-**Day 25 Notes for Problem: Move Zeroes**
+**Day 25 Notes for Problem: Valid Anagram**
 
 # Intuition
-The problem is identical to the one from Day 24, which involves moving all zeroes in an array to the end while maintaining the order of non-zero elements. The goal is to perform this operation in-place without using extra space for another array.
+The problem requires determining if two strings are anagrams of each other. An anagram is a word formed by rearranging the letters of another word. My initial thought was to count the frequency of each character in both strings and compare these frequencies.
 
 # Approach
-The approach remains the same as the previous day, utilizing a two-pointer technique. We maintain a pointer `lastNonZeroFoundAt` to track the position where the next non-zero element should be placed. As we iterate through the array, each time we encounter a non-zero element, we place it at the `lastNonZeroFoundAt` position and increment the pointer. After processing all elements, we fill the remaining positions with zeroes.
+The approach involves using a frequency counter. We iterate over the first string and count the occurrences of each character. Then, we iterate over the second string and decrement the count for each character. If any character count goes below zero or a character is not found, the strings are not anagrams. If all counts are zero at the end, the strings are anagrams.
 
 # Complexity
 - Time complexity:
-  The time complexity is $$O(n)$$, where $$n$$ is the number of elements in the array. This is because we iterate through the array twice: once to move non-zero elements and once to fill zeroes.
+  The time complexity is $$O(n)$$, where $$n$$ is the length of the strings. This is because we iterate through each string once.
 
 - Space complexity:
-  The space complexity is $$O(1)$$ because we only use a constant amount of extra space for the pointer.
-
+  The space complexity is $$O(1)$$ because the frequency counter uses a constant amount of extra space, limited by the number of unique characters (26 lowercase English letters).
+  
