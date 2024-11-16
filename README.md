@@ -144,6 +144,11 @@ The repository is structured as follows:
 │   │   ├── .gitignore             # Git ignore file to exclude certain files from version control
 │   │   ├── index.html             # Main HTML file for the app's structure
 │   │   ├── notes.md               # Documentation and notes for the weather app
+├── Day 23 11-11-24
+│   ├── notes.md               # Notes and explanation of the approach and learnings
+│   ├── problem-1.md           # Description of the Middle of the Linked List problem
+│   ├── solution-1.js          # Solution to the Middle of the Linked List problem (in JavaScript)
+│   ├── solution-1.py          # Solution to the Middle of the Linked List problem (in Python)
 ├── README.md
 ```
 
