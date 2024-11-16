@@ -134,6 +134,16 @@ The repository is structured as follows:
 │   │   ├── solution-1.js          # Solution to the Linked List Cycle problem (in JavaScript)
 │   │   ├── solution-1.py          # Solution to the Linked List Cycle problem (in Python)
 │   │   ├── notes.md               # Notes and explanation of the approach and learnings
+│   ├── weather-app                # Weather application project directory
+│   │   ├── assets                 # Directory for static assets like images and icons
+│   │   ├── scripts                # Directory for JavaScript files
+│   │   │   ├── app.js             # Main JavaScript file for app logic
+│   │   │   ├── config.js          # Configuration file for storing API keys and settings
+│   │   ├── styles                 # Directory for CSS files
+│   │   │   ├── style.css          # Main stylesheet for the app
+│   │   ├── .gitignore             # Git ignore file to exclude certain files from version control
+│   │   ├── index.html             # Main HTML file for the app's structure
+│   │   ├── notes.md               # Documentation and notes for the weather app
 ├── README.md
 ```
 
@@ -147,7 +157,9 @@ The repository is structured as follows:
 - **Day 19 07-11-24** Solved two LeetCode problems: "Find the Difference" and "First Unique Character in a String" in both JavaScript and Python. Documented the approach, solution, and complexity analysis for each problem. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2019%2007-11-24)
 - **Day 20 08-11-24** Solved a LeetCode problem on Binary Tree Preorder Traversal in both JavaScript and Python. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2020%2008-11-24)
 - **Day 21 09-11-24** Solved a LeetCode problem on "Remove Nth Node From End of List" in both JavaScript and Python. Utilized a two-pointer technique to achieve an efficient solution. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2021%2009-11-24)
-- **Day 22 10-11-24** Solved a LeetCode problem on "Linked List Cycle" in both JavaScript and Python. Utilized Floyd's Cycle-Finding Algorithm (Tortoise and Hare) for an efficient solution. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2022%2010-11-24/Leet%20Code)
+- **Day 22 10-11-24** Solved a LeetCode problem on "Linked List Cycle" in both JavaScript and Python. Utilized 
+Floyd's Cycle-Finding Algorithm (Tortoise and Hare) for an efficient solution. Documented the approach, solution, and 
+complexity analysis. Developed a weather application using HTML, CSS, and JavaScript. Integrated the OpenWeatherMap API to fetch and display current weather data for a specified city. Implemented error handling and documented the approach, solution, and future improvements. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2022%2010-11-24/weather-app)
 
 ## Goals
 
