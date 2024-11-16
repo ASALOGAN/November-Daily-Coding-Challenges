@@ -1,0 +1,153 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: Arial, sans-serif;
+}
+
+/* Body Styling */
+body {
+  background: linear-gradient(135deg, #74ebd5, #acb6e5);
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+/* Weather Container */
+#weather-container {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  max-width: 400px;
+  width: 90%;
+  text-align: center;
+}
+
+/* Title */
+#weather-container h1 {
+  font-size: 24px;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* Search Bar */
+#search-bar {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+
+#city {
+  flex: 1;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 28px;
+  outline: none;
+  font-size: 16px;
+}
+
+#search-btn {
+  background: #3498db;
+  border: none;
+  border-radius: 50%;
+  padding: 10px;
+  cursor: pointer;
+  height: 40px;
+  width: 40px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+
+#search-icon {
+  width: 40px;
+  height: 40px;
+}
+
+/* Weather Info */
+#weather-info {
+  margin-top: 20px;
+  text-align: center;
+}
+
+#weather-info h2 {
+  font-size: 22px;
+  color: #555;
+  margin-bottom: 10px;
+}
+
+#weather-icon {
+  width: 100px;
+  height: 100px;
+  margin: 10px 0;
+}
+
+#temp {
+  font-size: 28px;
+  font-weight: bold;
+  color: #333;
+  margin: 10px 0;
+}
+
+#weather {
+  font-size: 18px;
+  color: #666;
+  margin-bottom: 15px;
+}
+
+/* Weather Details */
+#weather-details {
+  display: flex;
+  justify-content: space-around;
+  gap: 10px;
+  margin-top: 40px;
+}
+
+#humidity-wind, #sun-times {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin-bottom: 30px;
+}
+
+#humidity-container, #sunrise-container{
+  display: flex;
+  align-items: center;
+  margin-bottom: 25px;
+}
+
+#wind-speed-container, #sunset-container{
+  display: flex;
+  align-items: center;
+}
+
+#humidity-icon, #wind-speed-icon, #sunrise-icon, #sunset-icon {
+  width: 40px;
+  margin-right: 8px;
+}
+
+/* Feels Like */
+#feels-like-container {
+  margin-top: 10px;
+}
+
+#feels-like {
+  font-size: 16px;
+  color: #555;
+}
+
+/* Error Message */
+#error-message {
+  color: #e74c3c;
+  font-size: 14px;
+  margin-top: 10px;
+}
+
+/* Hidden Class */
+.hidden {
+  display: none;
+}
