@@ -164,6 +164,11 @@ The repository is structured as follows:
 │   ├── solution-1.js        # Solution to the Find the Index of the First Occurrence in a String problem (in JavaScript)
 │   ├── solution-1.py        # Solution to the Find the Index of the First Occurrence in a String problem (in Python)
 │   ├── notes.md             # Notes and explanation of the approach and learnings
+├── Day 27 15-11-24
+│   ├── problem-1.md         # Description of the Power of Three problem
+│   ├── solution-1.js        # Solution to the Power of Three problem (in JavaScript)
+│   ├── solution-1.py        # Solution to the Power of Three problem (in Python)
+│   ├── notes.md             # Notes and explanation of the approach and learnings
 ├── README.md
 ```
 
