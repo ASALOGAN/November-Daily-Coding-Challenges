@@ -171,7 +171,7 @@ The repository is structured as follows:
 Floyd's Cycle-Finding Algorithm (Tortoise and Hare) for an efficient solution. Documented the approach, solution, and 
 complexity analysis. Developed a weather application using HTML, CSS, and JavaScript. Integrated the OpenWeatherMap API to fetch and display current weather data for a specified city. Implemented error handling and documented the approach, solution, and future improvements. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2022%2010-11-24/weather-app)
 - **Day 23 11-11-24** Solved a LeetCode problem on "Middle of the Linked List" in both JavaScript and Python. Implemented a two-pointer technique to efficiently find the middle node of a singly linked list. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2023%2011-11-24)
-
+- **Day 24 12-11-24** Solved a LeetCode problem on "Move Zeroes" in both JavaScript and Python. Implemented an in-place algorithm to move all zeroes to the end of the array while maintaining the relative order of non-zero elements. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2024%2012-11-24)
 
 ## Goals
 
