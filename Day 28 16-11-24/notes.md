@@ -1,4 +1,4 @@
-**Notes: Unique Paths Problem**
+**# Notes: Unique Paths Problem**
 
 # Intuition
 The problem is about finding the number of unique paths from the top-left corner to the bottom-right corner of a grid. The robot can only move right or down. This suggests a dynamic programming approach where we build up the solution by considering smaller subproblems.
