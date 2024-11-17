@@ -169,6 +169,12 @@ The repository is structured as follows:
 │   ├── solution-1.js        # Solution to the Power of Three problem (in JavaScript)
 │   ├── solution-1.py        # Solution to the Power of Three problem (in Python)
 │   ├── notes.md             # Notes and explanation of the approach and learnings
+├── Day 28 16-11-24
+│   ├── Leet Code
+│   │   ├── problem-1.md       # Description of the Unique Paths problem
+│   │   ├── solution-1.js      # Solution to the Unique Paths problem (in JavaScript)
+│   │   ├── solution-1.py      # Solution to the Unique Paths problem (in Python)
+│   │   ├── notes.md           # Notes and explanation of the approach and learnings
 ├── README.md
 ```
 
@@ -190,6 +196,7 @@ complexity analysis. Developed a weather application using HTML, CSS, and JavaSc
 - **Day 25 13-11-24** Solved a LeetCode problem on "Move Zeroes" in both JavaScript and Python. Implemented an in-place algorithm to move all zeroes to the end of the array while maintaining the relative order of non-zero elements. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2025%2013-11-24)
 - **Day 26 14-11-24** Solved a LeetCode problem on "Find the Index of the First Occurrence in a String" in both JavaScript and Python. Implemented an efficient algorithm to locate the first occurrence of a substring within a string. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2026%2014-11-24)
 - **Day 27 15-11-24** Solved a LeetCode problem on "Power of Three" in both JavaScript and Python. Implemented an algorithm to determine if a given integer is a power of three using both iterative and mathematical approaches. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2027%2015-11-24)
+- **Day 28 16-11-24** Solved a LeetCode problem on "Unique Paths" in both JavaScript and Python. Implemented a dynamic programming approach to calculate the number of unique paths from the top-left to the bottom-right corner of a grid. Documented the approach, solution, and complexity analysis. (https://github.com/ASALOGAN/November-Daily-Coding-Challenges/tree/main/Day%2028%2016-11-24)
 
 ## Goals
 
