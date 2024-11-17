@@ -1,3 +1,5 @@
+# **Coin Change Problem - Notes and Explanation**
+
 # Intuition
 The problem is a classic example of dynamic programming where we need to find the minimum number of coins required to make up a given amount. The key insight is to break down the problem into smaller subproblems, where we determine the minimum coins needed for smaller amounts and build up to the desired amount.
 
