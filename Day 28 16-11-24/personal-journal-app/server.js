@@ -31,3 +31,4 @@ app.use("/api/journals", authenticate, journalRoutes);
 app.listen(PORT, () => {
   console.log(`Server is running on port ${PORT}`); // Log a message when the server starts
 });
+
