@@ -1,34 +1,40 @@
-// Import necessary modules and files
-const express = require("express"); // Express framework for building web applications
-const dotenv = require("dotenv"); // Module to load environment variables from a .env file
-const authRoutes = require("./routes/auth"); // Authentication routes
-const journalRoutes = require("./routes/journal"); // Journal CRUD routes
-const authenticate = require("./middleware/authenticate"); // Middleware for authentication
-const connectDB = require("./config/database"); // Function to connect to MongoDB
+const express = require("express");
+const dotenv = require("dotenv");
+const cors = require("cors");
+const morgan = require("morgan");
+const connectDB = require("./config/database");
 
-// Load environment variables from .env file into process.env
+// Load environment variables from .env file
 dotenv.config();
 
-// Create an instance of the Express application
-const app = express();
-
-// Middleware to parse incoming JSON requests
-app.use(express.json());
-
-// Connect to MongoDB using the connectDB function
+// Connect to MongoDB
 connectDB();
 
-// Define the port for the server to listen on, defaulting to 5000 if not specified
-const PORT = process.env.PORT || 5000;
+// Initialize Express app
+const app = express();
 
-// Use authentication routes under the /api/auth path
-app.use("/api/auth", authRoutes);
+// Middleware
+app.use(cors()); // Enable Cross-Origin Resource Sharing
+app.use(express.json()); // Parse incoming JSON requests
+app.use(morgan("dev")); // Log HTTP requests in the console
 
-// Use journal routes under the /api/journals path, protected by authentication middleware
-app.use("/api/journals", authenticate, journalRoutes);
+// Routes
+const authRoutes = require("./routes/auth");
+const journalRoutes = require("./routes/journal");
 
-// Start the server and listen on the specified port
-app.listen(PORT, () => {
-  console.log(`Server is running on port ${PORT}`); // Log a message when the server starts
+app.use("/api/auth", authRoutes); // Authentication routes
+app.use("/api/journal", journalRoutes); // Journal routes
+
+// Error handling middleware
+app.use((err, req, res, next) => {
+  console.error(err.stack); // Log the error
+  res.status(err.status || 500).json({
+    message: err.message || "Internal Server Error",
+  });
 });
 
+// Start the server
+const PORT = process.env.PORT || 5000;
+app.listen(PORT, () => {
+  console.log(`Server running on http://localhost:${PORT}`);
+});
