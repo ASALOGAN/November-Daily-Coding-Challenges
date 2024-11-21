@@ -207,4 +207,3 @@ complexity analysis. Developed a weather application using HTML, CSS, and JavaSc
 ---
 
 Let's code daily and level up!
-
